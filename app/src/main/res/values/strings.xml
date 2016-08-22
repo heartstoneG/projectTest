@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="precision_1">精度等级1</string>
+    <string name="precision_2">精度等级2</string>
+    <string name="precision_3">精度等级3</string>
+    <string name="precision_4">精度等级4</string>
+    <string name="precision_5">精度等级5</string>
+    <string name="precision_6">精度等级6</string>
+    <string name="precision_7">精度等级7</string>
+    <string name="precision_8">精度等级8</string>
+    <string name="precision_9">精度等级9</string>
+    <string name="precision_10">精度等级10</string>
+    <string name="precision_options">您确定选择精度等级</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+</resources>
