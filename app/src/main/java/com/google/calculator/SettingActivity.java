@@ -19,7 +19,12 @@ import android.widget.ListView;
 public class SettingActivity extends AppCompatActivity {
 
     private ListView mLv;
-    String[] arr = {getString(R.string.precision_1),
+    
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_setting);
+        String[] arr = {getString(R.string.precision_1),
             getString(R.string.precision_2),
             getString(R.string.precision_3),
             getString(R.string.precision_4),
@@ -30,10 +35,6 @@ public class SettingActivity extends AppCompatActivity {
             getString(R.string.precision_9),
             getString(R.string.precision_10)};
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         mLv = (ListView) findViewById(R.id.lv);
